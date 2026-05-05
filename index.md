@@ -8,7 +8,7 @@ CycleStack YouTube Lead is a personal-use automation application that:
 
 1. **Uploads daily market briefing videos** (DBA series — "US Market Daily Briefing with AI") to the [CycleStack YouTube channel](https://www.youtube.com/@CycleStack)
 2. **Schedules video publish times** via the YouTube Data API
-3. **Fetches channel analytics** (views, retention, CTR) for the channel owner's local dashboard
+3. **Fetches channel analytics** (views, retention, CTR, comment sentiment) for the channel owner's local dashboard
 4. **Manages video metadata** (title, description, tags) for pre-rendered videos
 
 This is **not a public service**. The application is used exclusively by the channel owner ([shyu0732@gmail.com](mailto:shyu0732@gmail.com)) on their own CycleStack channel.
@@ -18,7 +18,7 @@ This is **not a public service**. The application is used exclusively by the cha
 | Scope | Why we use it |
 |---|---|
 | youtube.upload | Upload pre-rendered mp4 files + thumbnails to own channel |
-| youtube.readonly | Read own channel metadata for dashboard |
+| youtube.readonly | Read own channel metadata + top-level comments on own videos for dashboard |
 | yt-analytics.readonly | Fetch own video analytics for performance review |
 
 ## Privacy
